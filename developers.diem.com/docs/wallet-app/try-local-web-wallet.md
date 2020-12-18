@@ -185,7 +185,7 @@ Each transaction consists of:
 
 Clicking a transaction in the transactions list will open a window with transaction details.
 
-![](/img/docs/check-transaction.svg)
+![](/img/docs/check-transaction.png)
 
 
 
