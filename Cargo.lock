@@ -291,7 +291,7 @@ dependencies = [
  "itertools 0.10.0",
  "num_cpus",
  "once_cell",
- "pin-project 1.0.4",
+ "pin-project 1.0.7",
  "proptest",
  "rand 0.7.3",
  "regex",
@@ -2022,7 +2022,7 @@ dependencies = [
  "diem-metrics",
  "diem-workspace-hack",
  "futures 0.3.12",
- "pin-project 1.0.4",
+ "pin-project 1.0.7",
  "tokio",
  "tokio-util",
 ]
@@ -2180,7 +2180,7 @@ dependencies = [
  "diem-workspace-hack",
  "enum_dispatch",
  "futures 0.3.12",
- "pin-project 1.0.4",
+ "pin-project 1.0.7",
  "thiserror",
  "tokio",
  "tokio-test",
@@ -3434,7 +3434,7 @@ dependencies = [
  "httparse",
  "httpdate",
  "itoa",
- "pin-project 1.0.4",
+ "pin-project 1.0.7",
  "socket2",
  "tokio",
  "tower-service",
@@ -4394,7 +4394,7 @@ dependencies = [
  "diem-workspace-hack",
  "futures 0.3.12",
  "memsocket",
- "pin-project 1.0.4",
+ "pin-project 1.0.7",
  "proxy",
  "serde",
  "tokio",
@@ -4432,7 +4432,7 @@ dependencies = [
  "network-builder",
  "num-variants",
  "once_cell",
- "pin-project 1.0.4",
+ "pin-project 1.0.7",
  "proptest",
  "proptest-derive",
  "rand 0.7.3",
@@ -4908,11 +4908,11 @@ dependencies = [
 
 [[package]]
 name = "pin-project"
-version = "1.0.4"
+version = "1.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "95b70b68509f17aa2857863b6fa00bf21fc93674c7a8893de2f469f6aa7ca2f2"
+checksum = "c7509cc106041c40a4518d2af7a61530e1eed0e6285296a3d8c5472806ccc4a4"
 dependencies = [
- "pin-project-internal 1.0.4",
+ "pin-project-internal 1.0.7",
 ]
 
 [[package]]
@@ -4928,9 +4928,9 @@ dependencies = [
 
 [[package]]
 name = "pin-project-internal"
-version = "1.0.4"
+version = "1.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "caa25a6393f22ce819b0f50e0be89287292fda8d425be38ee0ca14c4931d9e71"
+checksum = "48c950132583b500556b1efd71d45b319029f2b71518d979fcc208e16b42426f"
 dependencies = [
  "proc-macro2 1.0.24",
  "quote 1.0.8",
@@ -7144,7 +7144,7 @@ checksum = "e1a5f475f1b9d077ea1017ecbc60890fda8e54942d680ca0b1d2b47cfa2d861b"
 dependencies = [
  "futures-util",
  "log",
- "pin-project 1.0.4",
+ "pin-project 1.0.7",
  "tokio",
  "tungstenite",
 ]
@@ -7570,7 +7570,7 @@ dependencies = [
  "mime_guess",
  "multipart",
  "percent-encoding",
- "pin-project 1.0.4",
+ "pin-project 1.0.7",
  "scoped-tls",
  "serde",
  "serde_json",
